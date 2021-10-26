@@ -1,0 +1,32 @@
+html {
+    font-family: sans-serif;
+}
+table {
+    height: calc((100vw - 16px) * (6 / 7));
+    max-width: 90vh;
+    background: #2196f3;
+    width: 100%;
+    max-width: calc((100vh - 106px) * (7 / 6));
+    max-height: calc(100vh - 106px);
+    padding: 2vw;
+    border-radius: 5vw;
+}
+td {
+    border: solid;
+    border-color: #2196f3;
+    background: white;
+    border-radius: 50%;
+}
+td:hover {
+    border-color: #bbdefb;
+    cursor: pointer;
+}
+#footer {
+    height: 90px;
+    overflow: hidden;
+}
+#info {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
